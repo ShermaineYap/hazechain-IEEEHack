@@ -11,3 +11,4 @@ data/processed/*.parquet
 __pycache__/
 *.pyc
 .DS_Store
+submission/*.mp4
