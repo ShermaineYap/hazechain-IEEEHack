@@ -1,0 +1,37 @@
+{
+ "test_season": "2025 (Jun-Nov), held out",
+ "rows_train": 2525400,
+ "rows_test": 505080,
+ "positive_rate_test": 0.0107,
+ "roc_auc": 0.826,
+ "pr_auc": 0.143,
+ "roc_auc_persistence": 0.68,
+ "pr_auc_persistence": 0.114,
+ "capture_top5pct": 0.412,
+ "capture_top5pct_persistence": 0.358,
+ "best_iteration": 197,
+ "feature_importance_gain": {
+  "n1_7": 0.392,
+  "f7": 0.246,
+  "n2_7": 0.103,
+  "rain30": 0.061,
+  "rain30_anom": 0.036,
+  "doy_s": 0.033,
+  "f3": 0.031,
+  "doy_c": 0.025,
+  "peat": 0.023,
+  "rain7": 0.018,
+  "oil_palm": 0.012,
+  "f1": 0.011,
+  "wood_fiber": 0.009
+ },
+ "el_nino_2023_holdout": {
+  "positive_rate": 0.0736,
+  "roc_auc": 0.872,
+  "roc_auc_persistence": 0.833,
+  "pr_auc": 0.457,
+  "pr_auc_persistence": 0.417,
+  "capture_top5pct": 0.378,
+  "capture_top5pct_persistence": 0.357
+ }
+}

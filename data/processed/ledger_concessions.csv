@@ -1,0 +1,261 @@
+polygon_id,kind,name,company,conc_type,source,source_yr,area_ha,peat_share,detections_week,events_started,events_confident,max_conf,events_spread_in,days_since_fire,fire_free_week,peat_pixels,detections_2025_season,status
+GFW-OP-59,oil_palm,Pt. Seruyan Sawit Makmur,Pt. Seruyan Sawit Makmur,Oil palm concession,Indonesia Ministry of Forestry,2012,15390,0.81,753,4,2,0.988,2,0.0,False,136,0,confident-ignition
+GFW-OP-60,oil_palm,Pt. Krida Darma Kahuripan,Pt. Krida Darma Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,13575,0.0,22,4,1,0.986,0,1.0,False,1,6,confident-ignition
+GFW-OP-61,oil_palm,Pt. Tantahan Panduhup Asi 2,Pt. Tantahan Panduhup Asi,Oil palm concession,Indonesia Ministry of Forestry,2012,7033,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-62,oil_palm,Pt. Ruta Jona Lestari,Pt. Ruta Jona Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,20804,0.12,153,15,3,0.965,2,1.0,False,28,1,confident-ignition
+GFW-OP-63,oil_palm,Pt. Bahaur Era Sawit Tama,Pt. Bahaur Era Sawit Tama,Oil palm concession,Indonesia Ministry of Forestry,2012,19862,0.93,5,1,0,0.357,0,7.0,False,3,3,low-confidence-ignition
+GFW-OP-65,oil_palm,Pt. Arjuna Utama Sawit,Pt. Arjuna Utama Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,14378,0.77,85,9,1,0.918,1,1.0,False,43,0,confident-ignition
+GFW-OP-67,oil_palm,Pt. Globalindo Agung Lestari 1,Pt. Globalindo Agung Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,7428,0.83,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-OP-68,oil_palm,Pt. Lubuk Mangguruh,Pt. Lubuk Mangguruh,Oil palm concession,Indonesia Ministry of Forestry,2012,1540,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-69,oil_palm,Pt. Sawitmas Nugraha Pratama,Pt. Sawitmas Nugraha Pratama,Oil palm concession,Indonesia Ministry of Forestry,2012,2048,0.0,27,2,1,0.888,1,1.0,False,0,2,confident-ignition
+GFW-OP-70,oil_palm,Pt. Mustika Sembuluh 1,Pt. Mustika Sembuluh,Oil palm concession,Indonesia Ministry of Forestry,2012,4737,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-72,oil_palm,Pt. Mustika Sembuluh 3,Pt. Mustika Sembuluh,Oil palm concession,Indonesia Ministry of Forestry,2012,8237,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-78,oil_palm,Pt. P4S Graha Inti Jaya 2,Pt. P4S Graha Inti Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,1027,0.94,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-79,oil_palm,Pt. Sapta Karya Damai,Pt. Sapta Karya Damai,Oil palm concession,Indonesia Ministry of Forestry,2012,13796,0.2,4,2,0,0.316,0,1.0,False,1,0,low-confidence-ignition
+GFW-OP-80,oil_palm,Pt. Hasfarm Utama Estate 2,Pt. Hasfarm Utama Estate,Oil palm concession,Indonesia Ministry of Forestry,2012,9618,0.01,1,1,0,0.199,0,6.0,False,0,12,low-confidence-ignition
+GFW-OP-82,oil_palm,Pt. Bumi Hutani Lestari 2,Pt. Bumi Hutani Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,11325,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-84,oil_palm,Pt. Jaya Citra 3,Pt. Jaya Citra,Oil palm concession,Indonesia Ministry of Forestry,2012,1162,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-85,oil_palm,Pt. Malindo Jaya Diraja 4,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,16,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-86,oil_palm,Pt. Malindo Jaya Diraja 6,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,16,0.54,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-88,oil_palm,Pt. Damit Mitra Sekawan 1,Pt. Damit Mitra Sekawan,Oil palm concession,Indonesia Ministry of Forestry,2012,14957,0.15,36,6,1,0.777,0,2.0,False,4,0,confident-ignition
+GFW-OP-89,oil_palm,Pt. Cakradenta Agung Pertiwi 6,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,6,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-92,oil_palm,Pt. Gawi Makmur Kalimantan,Pt. Gawi Makmur Kalimantan,Oil palm concession,Indonesia Ministry of Forestry,2012,7296,0.38,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-94,oil_palm,Pt. Astra Agro Lestari 2,Pt. Astra Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,2362,0.01,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-505,oil_palm,Pt. Perkebunan Kalimantan Sukses Makmur,Pt. Perkebunan Kalimantan Sukses Makmur,Oil palm concession,Indonesia Ministry of Forestry,2012,73,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-567,oil_palm,Pt. Hasfarm,Pt. Hasfarm,Oil palm concession,Indonesia Ministry of Forestry,2012,2964,0.05,1,1,0,0.221,0,1.0,False,0,4,low-confidence-ignition
+GFW-OP-593,oil_palm,Pt. Ptp Xviii,Pt. Ptp Xviii,Oil palm concession,Indonesia Ministry of Forestry,2012,2789,0.0,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-OP-667,oil_palm,Pt. Centar Borneo Agro Persada 2,Pt. Centar Borneo Agro Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,1842,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-709,oil_palm,Pt. Fajar Mas Indah Plantations,Pt. Fajar Mas Indah Plantations,Oil palm concession,Indonesia Ministry of Forestry,2012,6510,0.94,111,9,2,0.999,0,1.0,False,40,0,confident-ignition
+GFW-OP-739,oil_palm,Pt. Hutan Sawit Lestari 1,Pt. Hutan Sawit Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,5064,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-741,oil_palm,Pt. Agro Bukit,Pt. Agro Bukit,Oil palm concession,Indonesia Ministry of Forestry,2012,15383,0.91,1,0,0,0.0,1,2.0,False,1,0,affected-spread-in
+GFW-OP-742,oil_palm,Pt. Benua Alam Subur,Pt. Benua Alam Subur,Oil palm concession,Indonesia Ministry of Forestry,2012,12287,0.38,11,4,1,0.736,0,0.0,False,3,0,confident-ignition
+GFW-OP-743,oil_palm,Pt. Bakti Emas Surya Terang,Pt. Bakti Emas Surya Terang,Oil palm concession,Indonesia Ministry of Forestry,2012,10007,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-744,oil_palm,Pt. Hutanindo Agro Lestari 1,Pt. Hutanindo Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,3440,0.21,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-746,oil_palm,Pt. Hutanindo Agro Lestari 2,Pt. Hutanindo Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,243,0.19,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-747,oil_palm,Pt. Bisma Dharma Kencana,Pt. Bisma Dharma Kencana,Oil palm concession,Indonesia Ministry of Forestry,2012,14738,0.0,1,1,0,0.204,0,1.0,False,0,1,low-confidence-ignition
+GFW-OP-748,oil_palm,Pt. Bumi Sawit Kencana 1,Pt. Bumi Sawit Kencana,Oil palm concession,Indonesia Ministry of Forestry,2012,1735,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-749,oil_palm,Pt. Globalindo Alam Perkasa 1,Pt. Globalindo Alam Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,5834,0.83,85,1,0,0.471,0,5.0,False,29,0,low-confidence-ignition
+GFW-OP-750,oil_palm,Pt. Hamparan Masawit  Bangun Persada 1,Pt. Hamparan Masawit  Bangun Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,8173,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-751,oil_palm,Pt. Karunia Kencana Permai    Sejati,Pt. Karunia Kencana Permai    Sejati,Oil palm concession,Indonesia Ministry of Forestry,2012,16904,0.03,8,1,0,0.214,3,1.0,False,0,1,low-confidence-ignition
+GFW-OP-752,oil_palm,Pt. London Sumatera Internasional/ Sinar Citr,Pt. London Sumatera Internasional/ Sinar Citr,Oil palm concession,Indonesia Ministry of Forestry,2012,10204,0.53,2,1,0,0.059,0,7.0,False,1,1,low-confidence-ignition
+GFW-OP-753,oil_palm,Pt. Maju Aneka Sawit 1,Pt. Maju Aneka Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,1498,0.02,7,1,0,0.075,2,1.0,False,0,0,low-confidence-ignition
+GFW-OP-754,oil_palm,Pt. Maju Aneka Sawit 2,Pt. Maju Aneka Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,306,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-755,oil_palm,Pt. Maju Aneka Sawit 3,Pt. Maju Aneka Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,3090,0.84,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-756,oil_palm,Pt. Maju Aneka Sawit 4,Pt. Maju Aneka Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,6257,0.19,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-757,oil_palm,Pt. Hutan Sawit Lestari 2,Pt. Hutan Sawit Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,387,0.09,0,0,0,0.0,0,,True,0,1,fire-free
+GFW-OP-758,oil_palm,Pt. Mentaya Sawit Mas,Pt. Mentaya Sawit Mas,Oil palm concession,Indonesia Ministry of Forestry,2012,15898,0.07,108,5,0,0.5,2,1.0,False,7,1,low-confidence-ignition
+GFW-OP-759,oil_palm,Pt. Sukajadi Sawit Mekar 1,Pt. Sukajadi Sawit Mekar,Oil palm concession,Indonesia Ministry of Forestry,2012,699,0.21,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-760,oil_palm,Pt. Windu Nabatindo Abadi Ex Surya Barokah 1,Pt. Windu Nabatindo Abadi Ex Surya Barokah,Oil palm concession,Indonesia Ministry of Forestry,2012,1950,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-761,oil_palm,Pt. Windu Nabatindo Abadi Ex Surya Barokah 2,Pt. Windu Nabatindo Abadi Ex Surya Barokah,Oil palm concession,Indonesia Ministry of Forestry,2012,7568,0.06,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-762,oil_palm,Pt. Windu Nabatindo Abadi Ex Surya Barokah 3,Pt. Windu Nabatindo Abadi Ex Surya Barokah,Oil palm concession,Indonesia Ministry of Forestry,2012,1305,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-763,oil_palm,Pt. Tunas Agro Subur Kencana 1,Pt. Tunas Agro Subur Kencana,Oil palm concession,Indonesia Ministry of Forestry,2012,12692,0.01,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-764,oil_palm,Pt. Unggul Lestari,Pt. Unggul Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,12032,0.0,1,0,0,0.0,1,1.0,False,0,3,affected-spread-in
+GFW-OP-765,oil_palm,Pt. Windu Nabatindo Lestari 1,Pt. Windu Nabatindo Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,11469,0.08,1,1,0,0.221,0,2.0,False,0,0,low-confidence-ignition
+GFW-OP-766,oil_palm,Pt. Inhutani Iii 1,Pt. Inhutani Iii,Oil palm concession,Indonesia Ministry of Forestry,2012,2948,0.02,13,4,0,0.357,0,1.0,False,2,3,low-confidence-ignition
+GFW-OP-767,oil_palm,Pt. Mulia Agro Permai,Pt. Mulia Agro Permai,Oil palm concession,Indonesia Ministry of Forestry,2012,9104,0.73,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-769,oil_palm,Pt. Hutan Sawit Lestari 3,Pt. Hutan Sawit Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,841,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-770,oil_palm,Pt. Inhutani Iii 2,Pt. Inhutani Iii,Oil palm concession,Indonesia Ministry of Forestry,2012,4438,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-771,oil_palm,Pt. Windu Nabatindo Lestari 2,Pt. Windu Nabatindo Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,129,0.4,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-772,oil_palm,Pt. Bumitama Gunajaya Agro 1,Pt. Bumitama Gunajaya Agro,Oil palm concession,Indonesia Ministry of Forestry,2012,5,0.13,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-773,oil_palm,Pt. Bumitama Gunajaya Agro 2,Pt. Bumitama Gunajaya Agro,Oil palm concession,Indonesia Ministry of Forestry,2012,2,0.13,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-774,oil_palm,Pt. Windu Nabatindo Lestari 3,Pt. Windu Nabatindo Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,989,0.44,0,0,0,0.0,0,,True,0,1,fire-free
+GFW-OP-780,oil_palm,Pt. Uniprima Com,Pt. Uniprima Com,Oil palm concession,Indonesia Ministry of Forestry,2012,5224,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-781,oil_palm,Pt. Katingan Indah Utama 1,Pt. Katingan Indah Utama,Oil palm concession,Indonesia Ministry of Forestry,2012,2357,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-782,oil_palm,Pt. Swadaya Sapta Putra,Pt. Swadaya Sapta Putra,Oil palm concession,Indonesia Ministry of Forestry,2012,1026,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-797,oil_palm,Pt. Kerisawit Indonesia,Pt. Kerisawit Indonesia,Oil palm concession,Indonesia Ministry of Forestry,2012,11556,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-799,oil_palm,Pt. Graha Inti Jaya,Pt. Graha Inti Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,13300,0.81,82,5,1,0.713,2,1.0,False,25,0,confident-ignition
+GFW-OP-800,oil_palm,Pt. Surya Mas Citra Perkasa,Pt. Surya Mas Citra Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,23240,1.0,59,3,0,0.457,2,1.0,False,22,2,low-confidence-ignition
+GFW-OP-802,oil_palm,Pt. Badra Cemerlang,Pt. Badra Cemerlang,Oil palm concession,Indonesia Ministry of Forestry,2012,6101,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-803,oil_palm,Pt. Maju Aneka Sawit 5,Pt. Maju Aneka Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,5903,0.45,28,3,1,0.777,0,1.0,False,0,1,confident-ignition
+GFW-OP-807,oil_palm,Pt. Pukun Mandiri Lestari,Pt. Pukun Mandiri Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,18759,0.73,381,13,3,1.0,2,0.0,False,155,0,confident-ignition
+GFW-OP-809,oil_palm,Pt. Katingan Indah Utama 2,Pt. Katingan Indah Utama,Oil palm concession,Indonesia Ministry of Forestry,2012,8161,0.81,1,1,0,0.221,0,6.0,False,1,0,low-confidence-ignition
+GFW-OP-812,oil_palm,Pt. Sukajadi Sawit Mekar 2,Pt. Sukajadi Sawit Mekar,Oil palm concession,Indonesia Ministry of Forestry,2012,12347,0.35,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-814,oil_palm,Pt. Adhaksa Darmasatya,Pt. Adhaksa Darmasatya,Oil palm concession,Indonesia Ministry of Forestry,2012,5438,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-815,oil_palm,Pt. Hamparan Masawit  Bangun Persada 3,Pt. Hamparan Masawit  Bangun Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,165,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-816,oil_palm,Pt. Globalindo Alam Perkasa 2,Pt. Globalindo Alam Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,18254,0.82,186,9,2,1.0,3,0.0,False,64,1,confident-ignition
+GFW-OP-817,oil_palm,Pt. Menteng Jaya Sawit Kersuma,Pt. Menteng Jaya Sawit Kersuma,Oil palm concession,Indonesia Ministry of Forestry,2012,7438,0.99,0,0,0,0.0,0,,True,0,1,fire-free
+GFW-OP-821,oil_palm,Pt. Karya Luhur Sejati,Pt. Karya Luhur Sejati,Oil palm concession,Indonesia Ministry of Forestry,2012,15567,0.86,36,3,0,0.528,4,1.0,False,25,0,low-confidence-ignition
+GFW-OP-822,oil_palm,Pt. Bangkit Giat Usaha Mandiri 1,Pt. Bangkit Giat Usaha Mandiri,Oil palm concession,Indonesia Ministry of Forestry,2012,10019,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-827,oil_palm,Pt. Agro Lestari Sentosa 2,Pt. Agro Lestari Sentosa,Oil palm concession,Indonesia Ministry of Forestry,2012,3092,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-828,oil_palm,Pt. Mulya Sawit Agro Lestari 1,Pt. Mulya Sawit Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,4353,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-833,oil_palm,Pt. Sawit Mas Parenggean,Pt. Sawit Mas Parenggean,Oil palm concession,Indonesia Ministry of Forestry,2012,1409,0.04,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-834,oil_palm,Pt. Tana Sawit Belum Itah,Pt. Tana Sawit Belum Itah,Oil palm concession,Indonesia Ministry of Forestry,2012,6808,0.79,34,8,1,0.887,0,0.0,False,28,0,confident-ignition
+GFW-OP-837,oil_palm,Pt. Sangkowong Sinta,Pt. Sangkowong Sinta,Oil palm concession,Indonesia Ministry of Forestry,2012,32561,0.93,2337,12,3,1.0,0,1.0,False,647,0,confident-ignition
+GFW-OP-844,oil_palm,Pt. Petak Sawit Ekaharap,Pt. Petak Sawit Ekaharap,Oil palm concession,Indonesia Ministry of Forestry,2012,8929,0.82,25,12,1,0.787,1,1.0,False,18,0,confident-ignition
+GFW-OP-852,oil_palm,Pt. Karya Makmur Bahagia 1,Pt. Karya Makmur Bahagia,Oil palm concession,Indonesia Ministry of Forestry,2012,10575,0.04,10,4,0,0.528,0,2.0,False,0,2,low-confidence-ignition
+GFW-OP-853,oil_palm,Pt. Bangkit Giat Usaha Mandiri 2,Pt. Bangkit Giat Usaha Mandiri,Oil palm concession,Indonesia Ministry of Forestry,2012,11978,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-855,oil_palm,Kop. Karya Abadi,Kop. Karya Abadi,Oil palm concession,Indonesia Ministry of Forestry,2012,484,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-857,oil_palm,Pt. Kalimantan Hamparan Sawit,Pt. Kalimantan Hamparan Sawit,Oil palm concession,Indonesia Ministry of Forestry,2012,3530,0.01,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-858,oil_palm,Pt. Agung Pesona Kahuripan,Pt. Agung Pesona Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,10765,0.01,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-859,oil_palm,Pt. Kereng Pangi Pedana,Pt. Kereng Pangi Pedana,Oil palm concession,Indonesia Ministry of Forestry,2012,6830,0.0,28,4,2,0.961,0,1.0,False,0,0,confident-ignition
+GFW-OP-861,oil_palm,Pt. Giri Rejeki Kahuripan,Pt. Giri Rejeki Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,15708,0.01,18,2,1,0.957,0,2.0,False,0,6,confident-ignition
+GFW-OP-862,oil_palm,Pt. Dian Agro Mandiri,Pt. Dian Agro Mandiri,Oil palm concession,Indonesia Ministry of Forestry,2012,19174,0.69,25,5,0,0.698,0,1.0,False,16,0,low-confidence-ignition
+GFW-OP-863,oil_palm,Pt. Sepalar Yasa Kartika,Pt. Sepalar Yasa Kartika,Oil palm concession,Indonesia Ministry of Forestry,2012,8670,0.93,14,3,0,0.459,2,2.0,False,6,0,low-confidence-ignition
+GFW-OP-867,oil_palm,Pt. Berkah Alam Fajar Mas,Pt. Berkah Alam Fajar Mas,Oil palm concession,Indonesia Ministry of Forestry,2012,20102,0.7,4,1,0,0.082,2,2.0,False,2,0,low-confidence-ignition
+GFW-OP-869,oil_palm,Pt. Kahayan Agro Lestari,Pt. Kahayan Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,24579,0.41,20,6,1,0.713,1,2.0,False,9,1,confident-ignition
+GFW-OP-870,oil_palm,Kop. Danau Marei,Kop. Danau Marei,Oil palm concession,Indonesia Ministry of Forestry,2012,1556,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-871,oil_palm,Pt. Surya Inti Sawit Kahuripan,Pt. Surya Inti Sawit Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,2402,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-872,oil_palm,Kop. Warga Jaya,Kop. Warga Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,2477,0.95,9,3,1,0.713,1,1.0,False,8,0,confident-ignition
+GFW-OP-873,oil_palm,Kop. Marapit Jaya,Kop. Marapit Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,1026,0.41,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-877,oil_palm,Pt. Pulang Pisau Perdana,Pt. Pulang Pisau Perdana,Oil palm concession,Indonesia Ministry of Forestry,2012,32930,0.8,711,15,5,1.0,4,0.0,False,235,1,confident-ignition
+GFW-OP-878,oil_palm,Pt. Menteng Kencana Mas,Pt. Menteng Kencana Mas,Oil palm concession,Indonesia Ministry of Forestry,2012,19679,0.78,188,10,1,0.865,2,1.0,False,48,0,confident-ignition
+GFW-OP-879,oil_palm,Pt. Kurnia Kuala Kurun,Pt. Kurnia Kuala Kurun,Oil palm concession,Indonesia Ministry of Forestry,2012,17175,0.08,25,7,2,0.826,2,1.0,False,1,1,confident-ignition
+GFW-OP-880,oil_palm,Pt. Wanayasa Kahuripan Ind. & Kud. Melati,Pt. Wanayasa Kahuripan Ind. & Kud. Melati,Oil palm concession,Indonesia Ministry of Forestry,2012,1650,0.22,1,1,0,0.111,0,7.0,False,0,0,low-confidence-ignition
+GFW-OP-885,oil_palm,Pt. Samba Sakti Perkasa,Pt. Samba Sakti Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,4998,0.23,9,2,1,0.865,0,1.0,False,1,5,confident-ignition
+GFW-OP-891,oil_palm,Pt. Sawit Graha Manunggal,Pt. Sawit Graha Manunggal,Oil palm concession,Indonesia Ministry of Forestry,2012,12962,0.0,3,1,0,0.166,0,2.0,False,0,9,low-confidence-ignition
+GFW-OP-892,oil_palm,Pt. Dana Prima Milton,Pt. Dana Prima Milton,Oil palm concession,Indonesia Ministry of Forestry,2012,19221,0.32,587,8,0,0.618,3,1.0,False,47,1,low-confidence-ignition
+GFW-OP-900,oil_palm,Pt. Kalimantan Hijau Sentosa,Pt. Kalimantan Hijau Sentosa,Oil palm concession,Indonesia Ministry of Forestry,2012,8665,0.36,27,3,1,0.996,0,1.0,False,2,0,confident-ignition
+GFW-OP-901,oil_palm,Pt. Mata Andau Sawit Kahuripan,Pt. Mata Andau Sawit Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,13777,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-902,oil_palm,Pt. Telaga Sari Persada,Pt. Telaga Sari Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,8500,0.52,3,1,0,0.066,1,2.0,False,2,4,low-confidence-ignition
+GFW-OP-903,oil_palm,Pt. Wahana Agrotama Makmur Perkasa,Pt. Wahana Agrotama Makmur Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,167,0.38,1,1,0,0.066,0,1.0,False,1,0,low-confidence-ignition
+GFW-OP-904,oil_palm,Pt. Kelua Adi Raya,Pt. Kelua Adi Raya,Oil palm concession,Indonesia Ministry of Forestry,2012,19354,0.93,256,17,3,0.961,6,0.0,False,120,2,confident-ignition
+GFW-OP-905,oil_palm,Pt. Papadaan Uluh Itah,Pt. Papadaan Uluh Itah,Oil palm concession,Indonesia Ministry of Forestry,2012,22612,0.69,498,8,1,0.895,4,0.0,False,167,0,confident-ignition
+GFW-OP-906,oil_palm,Pt. Hamparan Sawit Eka Malan,Pt. Hamparan Sawit Eka Malan,Oil palm concession,Indonesia Ministry of Forestry,2012,14492,0.69,1196,3,0,0.326,1,0.0,False,257,0,low-confidence-ignition
+GFW-OP-908,oil_palm,Pt. Sarana Titian Permata,Pt. Sarana Titian Permata,Oil palm concession,Indonesia Ministry of Forestry,2012,16336,0.03,90,3,1,0.991,4,0.0,False,3,0,confident-ignition
+GFW-OP-911,oil_palm,Pt. Mukti Sawit Kahuripan,Pt. Mukti Sawit Kahuripan,Oil palm concession,Indonesia Ministry of Forestry,2012,3863,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-912,oil_palm,Pt. Agro Sembuluh,Pt. Agro Sembuluh,Oil palm concession,Indonesia Ministry of Forestry,2012,3242,0.0,3,1,0,0.066,1,1.0,False,0,1,low-confidence-ignition
+GFW-OP-915,oil_palm,Pt. Pahang Mitra Selaras,Pt. Pahang Mitra Selaras,Oil palm concession,Indonesia Ministry of Forestry,2012,19564,0.13,231,9,4,1.0,3,1.0,False,11,2,confident-ignition
+GFW-OP-916,oil_palm,Pt. Komashut Bangkiang Makmur,Pt. Komashut Bangkiang Makmur,Oil palm concession,Indonesia Ministry of Forestry,2012,269,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-917,oil_palm,Pt. Tiger Mandau Telawang 2,Pt. Tiger Mandau Telawang,Oil palm concession,Indonesia Ministry of Forestry,2012,4929,0.17,2,1,0,0.474,0,2.0,False,0,0,low-confidence-ignition
+GFW-OP-919,oil_palm,Pt. Flora Nusa Perdana,Pt. Flora Nusa Perdana,Oil palm concession,Indonesia Ministry of Forestry,2012,9105,0.0,42,4,1,0.721,1,1.0,False,0,2,confident-ignition
+GFW-OP-920,oil_palm,Pt. Sari Ramin Sunjaya,Pt. Sari Ramin Sunjaya,Oil palm concession,Indonesia Ministry of Forestry,2012,9899,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-937,oil_palm,Pt. Bumi Sawit Kencana 2,Pt. Bumi Sawit Kencana,Oil palm concession,Indonesia Ministry of Forestry,2012,751,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-953,oil_palm,Pt. Bulau Sawit Bajenta,Pt. Bulau Sawit Bajenta,Oil palm concession,Indonesia Ministry of Forestry,2012,12698,0.24,213,4,2,1.0,1,0.0,False,3,0,confident-ignition
+GFW-OP-955,oil_palm,Pt. Sawit Gawin Itah Samandiai,Pt. Sawit Gawin Itah Samandiai,Oil palm concession,Indonesia Ministry of Forestry,2012,13236,0.62,265,4,0,0.5,1,0.0,False,60,0,low-confidence-ignition
+GFW-OP-956,oil_palm,Pt. Eka Kaharap Itah,Pt. Eka Kaharap Itah,Oil palm concession,Indonesia Ministry of Forestry,2012,15242,0.56,554,12,0,0.47,2,0.0,False,80,0,low-confidence-ignition
+GFW-OP-957,oil_palm,Pt. Rimba Harapan Sakti,Pt. Rimba Harapan Sakti,Oil palm concession,Indonesia Ministry of Forestry,2012,13863,0.36,47,9,0,0.522,1,1.0,False,8,0,low-confidence-ignition
+GFW-OP-959,oil_palm,Pt. Mustika Sembuluh 2,Pt. Mustika Sembuluh,Oil palm concession,Indonesia Ministry of Forestry,2012,7237,0.14,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-960,oil_palm,Pt. Tunas Agro Subur Kencana 2,Pt. Tunas Agro Subur Kencana,Oil palm concession,Indonesia Ministry of Forestry,2012,8085,0.04,36,4,0,0.483,0,1.0,False,0,1,low-confidence-ignition
+GFW-OP-962,oil_palm,Pt. Hutanindo Agro Lestari 3,Pt. Hutanindo Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,4174,0.13,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-964,oil_palm,Pt. Mananjung Hayak,Pt. Mananjung Hayak,Oil palm concession,Indonesia Ministry of Forestry,2012,1825,0.3,64,2,0,0.179,0,0.0,False,11,0,low-confidence-ignition
+GFW-OP-965,oil_palm,Pt. Karya Abadi Makmur,Pt. Karya Abadi Makmur,Oil palm concession,Indonesia Ministry of Forestry,2012,2496,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-967,oil_palm,Kop. Bina Usaha,Kop. Bina Usaha,Oil palm concession,Indonesia Ministry of Forestry,2012,2828,0.0,0,0,0,0.0,0,,True,0,4,fire-free
+GFW-OP-968,oil_palm,Pt. Sarana Prima Multi Niaga,Pt. Sarana Prima Multi Niaga,Oil palm concession,Indonesia Ministry of Forestry,2012,8320,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-969,oil_palm,Pt. Bumi Hutani Lestari 1,Pt. Bumi Hutani Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,2427,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-970,oil_palm,Pt. P4S Graha Inti Jaya 1,Pt. P4S Graha Inti Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,823,0.71,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-971,oil_palm,Pt. Nabatindo Karya Utama,Pt. Nabatindo Karya Utama,Oil palm concession,Indonesia Ministry of Forestry,2012,1254,0.08,0,0,0,0.0,0,,True,0,1,fire-free
+GFW-OP-972,oil_palm,Pt. Windu Nabatindo Lestari 4,Pt. Windu Nabatindo Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,3549,0.11,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-973,oil_palm,Pt. Buana Adhitama 1,Pt. Buana Adhitama,Oil palm concession,Indonesia Ministry of Forestry,2012,236,0.16,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-975,oil_palm,Pt. Windu Nabatindo Abadi Ex Surya Barokah 4,Pt. Windu Nabatindo Abadi Ex Surya Barokah,Oil palm concession,Indonesia Ministry of Forestry,2012,1479,0.08,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-976,oil_palm,Pt. Windu Nabatindo Lestari 5,Pt. Windu Nabatindo Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,481,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-977,oil_palm,Pt. Hampalit Jaya,Pt. Hampalit Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,4982,0.03,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-OP-981,oil_palm,Pt. Windu Nabatindo Sejahtera,Pt. Windu Nabatindo Sejahtera,Oil palm concession,Indonesia Ministry of Forestry,2012,4850,0.02,0,0,0,0.0,0,,True,0,1,fire-free
+GFW-OP-982,oil_palm,Pt. Mulya Sawit Agro Lestari 2,Pt. Mulya Sawit Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,8306,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-983,oil_palm,Pt. Mitra Jaya Agro Palm,Pt. Mitra Jaya Agro Palm,Oil palm concession,Indonesia Ministry of Forestry,2012,12210,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-986,oil_palm,Pt. Buana Adhitama 2,Pt. Buana Adhitama,Oil palm concession,Indonesia Ministry of Forestry,2012,9244,0.0,22,2,0,0.557,0,1.0,False,2,7,low-confidence-ignition
+GFW-OP-994,oil_palm,Pt. Globalindo Agung Lestari 2,Pt. Globalindo Agung Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,27535,0.7,836,3,2,1.0,2,1.0,False,250,0,confident-ignition
+GFW-OP-1003,oil_palm,Pt. Petak Malai Sawit Makmur 2,Pt. Petak Malai Sawit Makmur,Oil palm concession,Indonesia Ministry of Forestry,2012,9113,0.66,747,5,0,0.632,1,0.0,False,209,1,low-confidence-ignition
+GFW-OP-1007,oil_palm,Pt. Centar Borneo Agro Persada 1,Pt. Centar Borneo Agro Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,425,0.04,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1009,oil_palm,Pt. Wanakasta Nusantara,Pt. Wanakasta Nusantara,Oil palm concession,Indonesia Ministry of Forestry,2012,7,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1010,oil_palm,Pt. Agro Buana Inti Lestari,Pt. Agro Buana Inti Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,680,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1014,oil_palm,Pt. Betang Ptt,Pt. Betang Ptt,Oil palm concession,Indonesia Ministry of Forestry,2012,6608,0.76,2,2,0,0.221,0,5.0,False,2,0,low-confidence-ignition
+GFW-OP-1015,oil_palm,Pt. Transindo Bakti Pertiwi 1,Pt. Transindo Bakti Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,11348,0.17,1,1,0,0.084,0,7.0,False,1,0,low-confidence-ignition
+GFW-OP-1020,oil_palm,Pt. Agro Mandiri Perdana 2,Pt. Agro Mandiri Perdana,Oil palm concession,Indonesia Ministry of Forestry,2012,3176,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1021,oil_palm,Pt. Agro Mandiri Perdana 3,Pt. Agro Mandiri Perdana,Oil palm concession,Indonesia Ministry of Forestry,2012,46,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1043,oil_palm,Pt. Lawang Haring Perkasa,Pt. Lawang Haring Perkasa,Oil palm concession,Indonesia Ministry of Forestry,2012,1311,0.27,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1044,oil_palm,Pt. Lautan Mustika Jaya,Pt. Lautan Mustika Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,3431,0.97,4,1,0,0.316,0,7.0,False,3,0,low-confidence-ignition
+GFW-OP-1046,oil_palm,Pt. Agro Mandiri Perdana 4,Pt. Agro Mandiri Perdana,Oil palm concession,Indonesia Ministry of Forestry,2012,3705,0.09,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1047,oil_palm,Pt. Indrogunas Pratama 2,Pt. Indrogunas Pratama,Oil palm concession,Indonesia Ministry of Forestry,2012,2491,0.06,22,0,0,0.0,1,2.0,False,0,1,affected-spread-in
+GFW-OP-1048,oil_palm,Pt. Lestari Unggul Jaya 2,Pt. Lestari Unggul Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,5472,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1049,oil_palm,Pt. Graha Jaya Abadi I,Pt. Graha Jaya Abadi I,Oil palm concession,Indonesia Ministry of Forestry,2012,22490,0.03,2,2,0,0.221,0,1.0,False,0,1,low-confidence-ignition
+GFW-OP-1050,oil_palm,Pt. Karya Makmur Bahagia 2,Pt. Karya Makmur Bahagia,Oil palm concession,Indonesia Ministry of Forestry,2012,9046,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1051,oil_palm,Pt. Indroguna Sakti,Pt. Indroguna Sakti,Oil palm concession,Indonesia Ministry of Forestry,2012,6332,0.02,3,1,0,0.066,1,2.0,False,0,4,low-confidence-ignition
+GFW-OP-1052,oil_palm,Pt. Indrogunas Pratama 1,Pt. Indrogunas Pratama,Oil palm concession,Indonesia Ministry of Forestry,2012,4989,0.16,17,5,1,0.936,1,1.0,False,3,3,confident-ignition
+GFW-OP-1054,oil_palm,Pt. Centar Borneo Agro Persada 3,Pt. Centar Borneo Agro Persada,Oil palm concession,Indonesia Ministry of Forestry,2012,7005,0.02,1,1,0,0.066,0,2.0,False,0,0,low-confidence-ignition
+GFW-OP-1055,oil_palm,Pt. Jaya Citra 1,Pt. Jaya Citra,Oil palm concession,Indonesia Ministry of Forestry,2012,7253,0.04,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1056,oil_palm,Pt. Lestari Unggul Jaya 3,Pt. Lestari Unggul Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,741,0.6,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1057,oil_palm,Pt. Transindo Bakti Pertiwi 2,Pt. Transindo Bakti Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,7451,0.23,4,1,0,0.386,0,2.0,False,3,1,low-confidence-ignition
+GFW-OP-1058,oil_palm,Pt. Bhadra Cemerlang,Pt. Bhadra Cemerlang,Oil palm concession,Indonesia Ministry of Forestry,2012,1906,0.17,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1059,oil_palm,Pt. Lestari Unggul Jaya 4,Pt. Lestari Unggul Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,707,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1062,oil_palm,Pt. Jaya Citra 2,Pt. Jaya Citra,Oil palm concession,Indonesia Ministry of Forestry,2012,6757,0.11,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1064,oil_palm,Pt. Bina Sawit Abadi Pratama 1,Pt. Bina Sawit Abadi Pratama,Oil palm concession,Indonesia Ministry of Forestry,2012,9659,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1067,oil_palm,Pt. Hasfarm Utama Estate 1,Pt. Hasfarm Utama Estate,Oil palm concession,Indonesia Ministry of Forestry,2012,6248,0.35,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1069,oil_palm,Pt. Rimba Pratika Mandiri,Pt. Rimba Pratika Mandiri,Oil palm concession,Indonesia Ministry of Forestry,2012,10840,0.0,10,2,1,0.777,0,3.0,False,0,0,confident-ignition
+GFW-OP-1070,oil_palm,Pt. Braz Utama,Pt. Braz Utama,Oil palm concession,Indonesia Ministry of Forestry,2012,22463,0.31,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1071,oil_palm,Pt. Sumber Mitra Jaya 1,Pt. Sumber Mitra Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,30366,0.5,3,2,0,0.393,0,2.0,False,3,3,low-confidence-ignition
+GFW-OP-1072,oil_palm,Pt. Banian 1,Pt. Banian,Oil palm concession,Indonesia Ministry of Forestry,2012,547,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1073,oil_palm,Pt. Banian 2,Pt. Banian,Oil palm concession,Indonesia Ministry of Forestry,2012,1093,0.13,7,3,0,0.551,0,1.0,False,0,0,low-confidence-ignition
+GFW-OP-1074,oil_palm,Pt. Sumber Mitra Jaya 2,Pt. Sumber Mitra Jaya,Oil palm concession,Indonesia Ministry of Forestry,2012,8567,0.17,1,1,0,0.066,0,4.0,False,0,0,low-confidence-ignition
+GFW-OP-1099,oil_palm,Pt. Cakradenta Agung Pertiwi 10,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,21,0.18,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1103,oil_palm,Pt. Karya Makmur Bahagia 3,Pt. Karya Makmur Bahagia,Oil palm concession,Indonesia Ministry of Forestry,2012,9046,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1105,oil_palm,Pt. London Sumatera Internasional,Pt. London Sumatera Internasional,Oil palm concession,Indonesia Ministry of Forestry,2012,2065,0.23,2,2,0,0.221,0,1.0,False,0,0,low-confidence-ignition
+GFW-OP-1107,oil_palm,Pt. Sukajadi Sawit Mekar 1,Pt. Sukajadi Sawit Mekar,Oil palm concession,Indonesia Ministry of Forestry,2012,2051,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1112,oil_palm,Pt. Cakradenta Agung Pertiwi 11,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,59,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1118,oil_palm,Pt. Cakung Permata Nusa 3,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,986,0.06,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1119,oil_palm,Pt. Cakung Permata Nusa 1,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,1011,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1120,oil_palm,Pt. Cakung Permata Nusa 2,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,2457,0.04,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1121,oil_palm,Pt. Cakradenta Agung Pertiwi 2,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,7,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1126,oil_palm,Pt. Cakradenta Agung Pertiwi 12,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,37,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1127,oil_palm,Pt. Cakradenta Agung Pertiwi 1,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,263,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1128,oil_palm,Pt. Sukajadi Sawit Mekar 2,Pt. Sukajadi Sawit Mekar,Oil palm concession,Indonesia Ministry of Forestry,2012,7247,0.01,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-OP-1131,oil_palm,Pt. Smart Corporation 1,Pt. Smart Corporation,Oil palm concession,Indonesia Ministry of Forestry,2012,7555,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1132,oil_palm,Pt. Smart Corporation 2,Pt. Smart Corporation,Oil palm concession,Indonesia Ministry of Forestry,2012,3794,0.18,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1134,oil_palm,Pt. Sajang Heulang 1,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,1625,0.19,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1135,oil_palm,Pt. Sajang Heulang 2,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,57,0.81,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1137,oil_palm,Pt. Sajang Heulang 3,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,150,0.73,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1138,oil_palm,Pt. Sajang Heulang 4,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,201,0.54,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1139,oil_palm,Pt. Sajang Heulang 5,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,328,0.51,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1141,oil_palm,Pt. Malindo Jaya Diraja 3,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,211,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1142,oil_palm,Pt. Malindo Jaya Diraja 5,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,24,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1145,oil_palm,Pt. Malindo Jaya Diraja 1,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,39,0.37,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1146,oil_palm,Pt. Malindo Jaya Diraja 2,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,93,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1147,oil_palm,Pt. Malindo Jaya Diraja 7,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,15133,0.0,27,7,1,0.97,0,2.0,False,1,1,confident-ignition
+GFW-OP-1148,oil_palm,Pt. Malindo Jaya Diraja 8,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,5182,0.0,17,1,0,0.393,1,2.0,False,0,0,low-confidence-ignition
+GFW-OP-1153,oil_palm,Pt. Cakradenta Agung Pertiwi 3,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,9,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1160,oil_palm,Pt. Ladang Rumpun Subur Abadi,Pt. Ladang Rumpun Subur Abadi,Oil palm concession,Indonesia Ministry of Forestry,2012,6063,0.09,27,6,1,0.918,0,2.0,False,0,0,confident-ignition
+GFW-OP-1162,oil_palm,Pt. Kintap Jaya Wattindo 2,Pt. Kintap Jaya Wattindo,Oil palm concession,Indonesia Ministry of Forestry,2012,427,0.12,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1163,oil_palm,Pt. Cakradenta Agung Pertiwi 4,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,3,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1168,oil_palm,Pt. Indoraya Everlateks,Pt. Indoraya Everlateks,Oil palm concession,Indonesia Ministry of Forestry,2012,660,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1169,oil_palm,Pt. Cakradenta Agung Pertiwi 5,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,112,0.26,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1170,oil_palm,Pt. Cakradenta Agung Pertiwi 7,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,30,0.2,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1171,oil_palm,Pt. Cakradenta Agung Pertiwi 8,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,8,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1173,oil_palm,Pt. Cakradenta Agung Pertiwi 9,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,115,0.25,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1176,oil_palm,Pt. Buana Karya Bhakti,Pt. Buana Karya Bhakti,Oil palm concession,Indonesia Ministry of Forestry,2012,7023,0.11,6,1,1,0.777,0,2.0,False,0,0,confident-ignition
+GFW-OP-1183,oil_palm,Ptp Nusantara Xiii 3,Ptp Nusantara Xiii,Oil palm concession,Indonesia Ministry of Forestry,2012,4622,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1184,oil_palm,Pt. Sajang Heulang 7,Pt. Sajang Heulang,Oil palm concession,Indonesia Ministry of Forestry,2012,59,0.71,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1185,oil_palm,Pt. Malindo Jaya Diraja 9,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,4094,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1191,oil_palm,Pt. Malindo Jaya Diraja 10,Pt. Malindo Jaya Diraja,Oil palm concession,Indonesia Ministry of Forestry,2012,3136,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1192,oil_palm,Pt. Cakung Permata Nusa 4,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,653,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1193,oil_palm,Pt. Cakradenta Agung Pertiwi 13,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,95,0.08,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1197,oil_palm,Pt. Cakradenta Agung Pertiwi 14,Pt. Cakradenta Agung Pertiwi,Oil palm concession,Indonesia Ministry of Forestry,2012,1512,0.19,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1198,oil_palm,Pt. Cakung Permata Nusa 5,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,1011,0.22,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1200,oil_palm,Pt. Cakung Permata Nusa 6,Pt. Cakung Permata Nusa,Oil palm concession,Indonesia Ministry of Forestry,2012,483,0.05,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1201,oil_palm,Pt. Singaland Asetama,Pt. Singaland Asetama,Oil palm concession,Indonesia Ministry of Forestry,2012,1092,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1202,oil_palm,Pt. Hasbur Sawit Putera,Pt. Hasbur Sawit Putera,Oil palm concession,Indonesia Ministry of Forestry,2012,5293,0.06,165,1,0,0.473,0,1.0,False,0,136,low-confidence-ignition
+GFW-OP-1203,oil_palm,Pd. Aneka Usaha Barakat,Pd. Aneka Usaha Barakat,Oil palm concession,Indonesia Ministry of Forestry,2012,6278,0.03,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1205,oil_palm,Pt. Bina Banua Kharismatik Sakumpul,Pt. Bina Banua Kharismatik Sakumpul,Oil palm concession,Indonesia Ministry of Forestry,2012,13716,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1206,oil_palm,Pt. Bina Banua Sakumpul,Pt. Bina Banua Sakumpul,Oil palm concession,Indonesia Ministry of Forestry,2012,7368,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-OP-1207,oil_palm,Pt. Astra Agro Lestari 1,Pt. Astra Agro Lestari,Oil palm concession,Indonesia Ministry of Forestry,2012,575,0.33,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-2,wood_fiber,Pt Kirana Chatulistiwa,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,12278,0.15,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-3,wood_fiber,Pt Batulicin Bumi Bersujud,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,22028,0.02,11,3,0,0.253,1,2.0,False,0,3,low-confidence-ignition
+GFW-WF-4,wood_fiber,Pt Wana Dipa Perkasa,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,661,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-39,wood_fiber,Pt Langgeng Bakti Persada,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,29596,0.31,754,6,1,0.812,6,1.0,False,31,0,confident-ignition
+GFW-WF-69,wood_fiber,Pt Bumi Hijau Prima,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,1747,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-72,wood_fiber,Pt Kalteng Green Resources,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,29488,0.2,86,8,3,1.0,1,1.0,False,7,0,confident-ignition
+GFW-WF-76,wood_fiber,Pt Ocean Bagus Jaya,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,3328,0.75,116,6,1,0.998,0,0.0,False,23,0,confident-ignition
+GFW-WF-80,wood_fiber,Pt Bukit Beringin Makmur,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,6086,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-82,wood_fiber,Pt Balangan Indah Lestari,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,9384,0.0,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-WF-146,wood_fiber,Pt Trikorindotama Wanakarya,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,14144,0.03,1,1,0,0.1,0,6.0,False,0,3,low-confidence-ignition
+GFW-WF-147,wood_fiber,Pt Inni Joa,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,28434,0.0,56,8,1,0.765,1,1.0,False,1,0,confident-ignition
+GFW-WF-148,wood_fiber,Pt Jhonlin Agro Mandiri,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,9015,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-149,wood_fiber,Pt Dwima Intiga,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,7915,0.0,146,6,1,0.973,1,1.0,False,0,144,confident-ignition
+GFW-WF-152,wood_fiber,Pt Prima Multi Buana,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,12593,0.0,79,8,0,0.544,4,1.0,False,0,8,low-confidence-ignition
+GFW-WF-160,wood_fiber,Pt Borneo Green Lestari,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,8508,0.03,1,1,0,0.136,0,2.0,False,0,0,low-confidence-ignition
+GFW-WF-162,wood_fiber,Pt Aya Yayang Indonesia,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,8380,0.05,1,1,0,0.221,0,1.0,False,0,3,low-confidence-ignition
+GFW-WF-168,wood_fiber,Pt Hutan Sembada,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,12293,0.03,10,2,0,0.221,1,2.0,False,0,0,low-confidence-ignition
+GFW-WF-171,wood_fiber,Pt Baratama Putra Perkasa,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,36210,0.67,216,1,1,0.873,3,0.0,False,44,0,confident-ignition
+GFW-WF-172,wood_fiber,Pt Jenggala Semesta,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,10423,0.05,0,0,0,0.0,0,,True,0,7,fire-free
+GFW-WF-178,wood_fiber,Pt Inhutani Iii (Eks Ptinhutani Iii Riam Kiwa),,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,14910,0.0,21,5,0,0.632,3,2.0,False,0,16,low-confidence-ignition
+GFW-WF-200,wood_fiber,Pt Industrial Forest Plantati0N,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,91826,0.07,7,1,0,0.408,1,1.0,False,0,1,low-confidence-ignition
+GFW-WF-214,wood_fiber,Pt Rimbun Seruyan,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,37184,0.43,223,8,0,0.372,7,0.0,False,68,2,low-confidence-ignition
+GFW-WF-221,wood_fiber,Pt Sanur Hastra Mitra Bersama,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,11578,0.03,0,0,0,0.0,0,,True,0,2,fire-free
+GFW-WF-234,wood_fiber,Pt Hutan Rindang Banua,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,137106,0.19,137,42,1,0.777,7,1.0,False,1,44,confident-ignition
+GFW-WF-237,wood_fiber,Pt Ceria Karya Pranawa,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,76586,0.48,15,3,1,0.713,0,1.0,False,9,1,confident-ignition
+GFW-WF-322,wood_fiber,Pt Agro Borneo Lestari,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,11605,0.08,84,5,1,0.986,1,1.0,False,1,0,confident-ignition
+GFW-WF-327,wood_fiber,Pt Ramang Agro Lestari,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,13537,0.15,98,1,0,0.072,3,1.0,False,8,3,low-confidence-ignition
+GFW-WF-329,wood_fiber,Pt Nusa Lestari Indah,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,28308,0.02,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-331,wood_fiber,Pt Borneo Subur Agro,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,22233,0.21,316,12,2,0.997,6,1.0,False,44,1,confident-ignition
+GFW-WF-335,wood_fiber,Pt Taiyoung Engreen,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,21221,0.06,37,3,0,0.395,1,2.0,False,0,1,low-confidence-ignition
+GFW-WF-345,wood_fiber,Pt Siemon Agro,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,10210,0.57,265,3,0,0.431,5,0.0,False,50,0,low-confidence-ignition
+GFW-WF-349,wood_fiber,Pt Parwata Rimba,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,1256,0.0,0,0,0,0.0,0,,True,0,0,fire-free
+GFW-WF-368,wood_fiber,Pt Babugus Wahana Lestari,,Wood fiber concession,Indonesia Ministry of Environment and Forestry,2021,16459,0.02,0,0,0,0.0,0,,True,0,0,fire-free

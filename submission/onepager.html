@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>HazeChain one-pager</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 400 9.1pt/1.33 "Archivo", Helvetica, sans-serif; color: #17302E; background: #fff; }
+.page { width: 210mm; height: 297mm; padding: 11mm 13mm 9mm; display: flex; flex-direction: column; gap: 3.2mm; overflow: hidden; }
+h1 { font-size: 26pt; font-variation-settings: "wdth" 70; font-weight: 750; margin: 0; line-height: 1; }
+h2 { font-size: 11.5pt; font-variation-settings: "wdth" 75; font-weight: 700; margin: 0 0 1.5mm; }
+p { margin: 0; }
+.top { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid #17302E; padding-bottom: 3mm; }
+.top .sub { font-size: 10pt; max-width: 120mm; margin-top: 2mm; }
+.top .meta { text-align: right; font-size: 8.8pt; color: #4C625F; line-height: 1.5; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+.fig { font-variation-settings: "wdth" 64; font-weight: 800; font-size: 17pt; line-height: 1; display: block; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; padding: 3mm 0; border-block: 1px solid #C7D1CC; }
+.stats div span { font-size: 8.6pt; color: #4C625F; line-height: 1.25; display: block; margin-top: 1mm; }
+img.arch { width: 100%; height: 55mm; object-fit: contain; background: #EEF1EE; border: 1px solid #C7D1CC; border-radius: 2mm; }
+table { width: 100%; border-collapse: collapse; font-size: 8.4pt; }
+th { text-align: left; border-bottom: 1.3px solid #17302E; padding: 1.2mm 2mm 1.2mm 0; font-weight: 650; }
+td { border-bottom: 1px solid #DCE3DF; padding: 1.2mm 2mm 1.2mm 0; vertical-align: top; }
+.ok { color: #2E7A4F; font-weight: 650; } .bad { color: #C2401E; font-weight: 650; } .amb { color: #9A6C0A; font-weight: 650; }
+ul { margin: 0; padding-left: 4.5mm; } li { margin: 0.6mm 0; }
+.foot { margin-top: auto; font-size: 8pt; color: #4C625F; border-top: 1px solid #C7D1CC; padding-top: 2mm; }
+</style></head>
+<body><div class="page">
+  <div class="top">
+    <div><h1>HazeChain</h1>
+      <p class="sub">Satellite-verified peat fire evidence anchored on Ethereum, and a smart contract that pays communities only when the satellites confirm their land stayed fire-free.</p></div>
+    <div class="meta">IEEE ClimateChain Global Hackathon 2026<br>Track: Climate Data &amp; Environmental Monitoring<br>Shermaine Yap Shi Min, APU Malaysia<br><b>LIVE_URL</b></div>
+  </div>
+
+  <div class="cols">
+    <div><h2>The problem, this week</h2>
+      <p>From 17 to 24 October 2026, NASA satellites recorded 58,466 fire detections in one corner of Central Kalimantan. The haze has hit Indonesia, Malaysia and Singapore since September. Satellites see every fire; what fails is <b>attribution</b> (fires cross boundaries and evidence is contested) and <b>incentives</b> (paying villages to stay fire-free works, but runs on one company's paperwork). Each hectare of drained peat that burns emits about <b>800 tCO₂e</b> (IPCC 2013 Wetlands Supplement).</p></div>
+    <div><h2>What HazeChain does</h2>
+      <ul>
+        <li><b>AI</b> clusters pixels into fires, finds each ignition and decides whether a fire <i>started</i> in a polygon or <i>spread in</i>; LightGBM forecasts next week's risk.</li>
+        <li><b>EvidenceRegistry</b> stores one SHA-256 Merkle root per day, write-once, with the model version.</li>
+        <li><b>FireFreeEscrow</b> pays a village or company when no confident ignition is reported, and slashes to a suppression pool when one is, after a dispute window.</li>
+        <li><b>Anyone</b> can rebuild a root in the browser and verify a row on-chain, with no wallet.</li>
+      </ul></div>
+  </div>
+
+  <img class="arch" src="../docs/img/architecture.png" alt="Architecture: ingest, AI, anchor, pay or slash">
+
+  <div class="stats">
+    <div><b class="fig">79%</b><span>of this week's fire pixels on drained peat; only 25% inside concessions</span></div>
+    <div><b class="fig">152 / 260</b><span>concessions fire-free all week, the land managers a fund should pay</span></div>
+    <div><b class="fig">0.83 vs 0.68</b><span>risk-model ROC-AUC vs naive baseline, 2025 season held out (0.87 vs 0.83 in El Niño 2023)</span></div>
+    <div><b class="fig">14 / 14</b><span>contract tests: tamper, pay, slash, low confidence, dispute, refund, double-settle</span></div>
+  </div>
+
+  <div class="cols">
+    <div><h2>Live pledges on Sepolia</h2>
+      <table><tr><th>Polygon</th><th>Satellites show</th><th>Outcome</th></tr>
+        <tr><td>Karau Kuala sub-district</td><td>No fire, 84% peat</td><td class="ok">Paid to village</td></tr>
+        <tr><td>Concession GFW-OP-817</td><td>No fire, 99% peat</td><td class="ok">Paid</td></tr>
+        <tr><td>Concession GFW-OP-877</td><td>5 confident ignitions</td><td class="bad">Slashed to pool</td></tr>
+        <tr><td>Concession GFW-OP-799</td><td>1 ignition at 0.71, 2 spread in</td><td class="amb">Disputed</td></tr>
+      </table>
+      <p style="font-size:8.4pt;color:#4C625F;margin-top:1.5mm">Demo pledges with test ETH; not commitments by, or accusations against, the named organisations.</p></div>
+    <div><h2>Why blockchain, impact, adoption</h2>
+      <p>A village, a funder and a regulator who distrust each other need one record nobody can edit, and payment that happens automatically on the outcome. APRIL's Fire Free Village pilots cut burnt area 90% for about US$30,000 per village; keeping 1,000 ha of peat from burning at that cost is under <b>US$0.04 per tCO₂e</b>. Users: village fire-care groups, plantations, commodity buyers (EUDR, RSPO), Indonesia's environment ministry, haze regulators, results-based climate finance. Next: a 2027 regency pilot with a 2-of-3 oracle set. NASA FIRMS is global, so the same pipeline covers every peatland.</p></div>
+  </div>
+
+  <div class="cols">
+    <div><h2>Security and data integrity</h2>
+      <p>Write-once roots, oracle allow-list, reentrancy guard, no double settlement, funder refund if the oracle disappears, dispute window, spread-in fires never count, 0.70 confidence floor. Residual risk is the single oracle; production uses a staked multi-party oracle and multisig arbiter.</p></div>
+    <div><h2>Honest limits</h2>
+      <p>Concession maps are from 2012. Attribution confidence is a published heuristic, not a trained classifier, because no labelled ground truth exists yet. A 7-day window censors long-burning fires, which are flagged and down-weighted. VIIRS misses small, cloud-covered and smouldering fires.</p></div>
+  </div>
+
+  <div class="foot">Data: NASA FIRMS VIIRS 375 m (S-NPP, NOAA-20, NOAA-21); Global Forest Watch concessions and peatlands; NASA POWER; GADM 4.1; IPCC 2013 Wetlands Supplement Tables 2.6–2.7. Code: REPO_URL. Contracts: REGISTRY_ADDRESS, ESCROW_ADDRESS (Ethereum Sepolia).</div>
+</div></body></html>

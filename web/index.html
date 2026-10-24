@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HazeChain</title>
+<meta name="description" content="Satellite-verified peat fire evidence anchored on Ethereum, and a pay-for-no-fire escrow that settles on it. Central Kalimantan, October 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="#top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c1.5 3.5 5 5.4 5 9.6A5 5 0 0 1 12 17a5 5 0 0 1-5-5.2C7 9 9 8 9.4 5.6 11 7 11.3 8.6 11 10.5 12.6 9 12.6 5.4 12 2Z"/><path d="M3 20.5c3-1.6 5.6-1.6 9 0s6 1.6 9 0" fill="none" stroke-width="1.6"/></svg>HazeChain</a>
+  <nav aria-label="Sections">
+    <a href="#evidence">Check the evidence</a>
+    <a href="#pledges">Pledges</a>
+    <a href="#method">How it decides</a>
+  </nav>
+  <span id="chainBadge" class="chain">Contracts: loading…</span>
+</header>
+
+<main id="top">
+  <section class="stage">
+    <div id="map" role="region" aria-label="Map of fire detections, events and concessions in Central Kalimantan"></div>
+    <aside class="panel">
+      <h1>Satellites saw <span id="kDet" class="fig">58,466</span> fire pixels on Central Kalimantan's peat this week.</h1>
+      <p class="lede">HazeChain turns each one into evidence nobody can quietly edit, works out where every fire started, and pays the people who keep their land from burning.</p>
+
+      <dl class="facts" id="facts"></dl>
+
+      <fieldset class="layers">
+        <legend>Show on map</legend>
+        <label><input type="checkbox" id="lDet" checked> Fire detections</label>
+        <label><input type="checkbox" id="lEv" checked> Ignition points</label>
+        <label><input type="checkbox" id="lConc" checked> Concessions</label>
+        <label><input type="checkbox" id="lDist"> Sub-districts</label>
+        <label><input type="checkbox" id="lRisk"> Fire risk, next 7 days</label>
+      </fieldset>
+      <div class="days">
+        <label for="day">Day</label>
+        <input type="range" id="day" min="0" max="8" value="8" step="1">
+        <output id="dayOut">All week</output>
+      </div>
+
+      <div id="card" class="card" aria-live="polite">
+        <p class="hint">Select a concession, sub-district or ignition point to see its fire ledger.</p>
+      </div>
+    </aside>
+  </section>
+
+  <section id="evidence" class="block">
+    <div class="intro">
+      <h2>Check the evidence yourself</h2>
+      <p>Every day's satellite detections, fire events and attributions are hashed into one Merkle root, and that root is written to Ethereum once and never again. Your browser downloads the raw rows, rebuilds the root, and asks the contract whether a single row belongs. No wallet, no trust in us.</p>
+    </div>
+    <div class="verify">
+      <div class="vctl">
+        <label for="vday">Evidence day</label>
+        <select id="vday"></select>
+        <button id="vload" class="btn">Rebuild the root</button>
+      </div>
+      <ol class="steps" id="vsteps">
+        <li data-k="dl"><span>Download the day's evidence rows</span><em>waiting</em></li>
+        <li data-k="root"><span>Hash every row and rebuild the Merkle root in this browser</span><em>waiting</em></li>
+        <li data-k="chain"><span>Read the root anchored on Sepolia</span><em>waiting</em></li>
+      </ol>
+      <div class="rowcheck" id="rowcheck" hidden>
+        <label for="vrow">Pick a row to prove</label>
+        <select id="vrow"></select>
+        <textarea id="vtext" rows="4" spellcheck="false" aria-label="Evidence row, editable"></textarea>
+        <div class="vbtns">
+          <button id="vprove" class="btn">Ask the contract</button>
+          <button id="vtamper" class="btn ghost">Tamper with this row</button>
+        </div>
+        <p id="vresult" class="vresult" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pledges" class="block">
+    <div class="intro">
+      <h2>Pay-for-no-fire pledges</h2>
+      <p>A funder locks money against one polygon for a fire season. When the season ends the oracle reports attributed ignitions, citing a day of anchored evidence. After a dispute window anyone can settle: no confident ignition pays the community or company; a confident ignition sends the money to a fire-suppression pool. Fires that spread in from outside never count.</p>
+    </div>
+    <div class="flow" aria-hidden="true">
+      <span>Funded</span><i></i><span>Season ends</span><i></i><span>Oracle reports</span><i></i><span>Dispute window</span><i></i><span class="split"><b class="ok">Paid</b><b class="bad">Slashed</b></span>
+    </div>
+    <div class="tablewrap"><table class="pledges">
+      <thead><tr><th>Polygon</th><th>What the satellites show</th><th>Locked</th><th>Oracle report</th><th>Outcome</th></tr></thead>
+      <tbody id="ptable"><tr><td colspan="5" class="muted">Reading pledges from the contract…</td></tr></tbody>
+    </table></div>
+    <p class="note">Demo pledges use test ETH on Sepolia and demo wallets; they are not commitments by the named organisations.</p>
+  </section>
+
+  <section id="method" class="block">
+    <div class="intro">
+      <h2>How the AI decides</h2>
+      <p>Three models, each simple enough to audit. Every output carries the model version, and that version is anchored with the evidence.</p>
+    </div>
+    <div class="method">
+      <article>
+        <h3>Group pixels into fires</h3>
+        <p>DBSCAN clusters detections that touch in space and time (1.5 km, with 24 hours counted like 1.5 km). The earliest overpass marks the ignition; the brightest pixel breaks ties. Fires already burning when the record starts are marked <em>censored</em>, and their confidence is halved because the true start is unknown.</p>
+      </article>
+      <article>
+        <h3>Decide who it belongs to</h3>
+        <p>For every polygon a fire touches: did it <strong>start</strong> there or <strong>spread in</strong>? Only a start counts. Confidence multiplies persistence (more pixels, more certain), distance from the boundary (a VIIRS pixel is 375 m wide), and how much of the fire stayed inside. The escrow ignores anything below 0.70 and always allows a dispute.</p>
+      </article>
+      <article>
+        <h3>Forecast next week's fires</h3>
+        <p id="mtext">Gradient-boosted trees on 2019–2023 fire seasons, tuned on 2024 and tested on 2025, which the model never saw.</p>
+        <dl class="metrics" id="metrics"></dl>
+      </article>
+    </div>
+    <p class="note" id="caveat">A satellite detection inside a licensed boundary is evidence for investigation, not proof of responsibility. Concession boundaries are Indonesian Ministry of Forestry data (2012) published by Global Forest Watch and may be out of date.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>Data: <a href="https://firms.modaps.eosdis.nasa.gov/">NASA FIRMS</a> VIIRS 375 m active fires (S-NPP, NOAA-20, NOAA-21); <a href="https://www.globalforestwatch.org/">Global Forest Watch</a> concessions and peatlands; <a href="https://power.larc.nasa.gov/">NASA POWER</a> rainfall; <a href="https://gadm.org/">GADM</a> sub-districts. Emissions per <a href="https://www.ipcc-nggip.iges.or.jp/public/wetlands/">IPCC 2013 Wetlands Supplement</a>, Tables 2.6–2.7.</p>
+  <p>Built for the IEEE ClimateChain Global Hackathon 2026, Climate Data &amp; Environmental Monitoring track. <a href="https://github.com/">Source code</a>.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

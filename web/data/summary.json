@@ -1,0 +1,46 @@
+{
+ "asof": "2026-10-24",
+ "window": [
+  "2026-10-17",
+  "2026-10-24"
+ ],
+ "aoi": [
+  112.5,
+  -3.8,
+  115.5,
+  -1.5
+ ],
+ "model_version": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+ "detections": 58466,
+ "detections_by_day": {
+  "2026-10-17": 8171,
+  "2026-10-18": 4683,
+  "2026-10-19": 2091,
+  "2026-10-20": 3888,
+  "2026-10-21": 9269,
+  "2026-10-22": 21763,
+  "2026-10-23": 8328,
+  "2026-10-24": 273
+ },
+ "events": 2318,
+ "events_multi": 1420,
+ "events_censored": 579,
+ "share_on_peat": 0.785,
+ "share_in_concessions": 0.246,
+ "concessions_total": 260,
+ "concessions_with_fire": 108,
+ "concessions_confident_ignition": 46,
+ "concessions_spread_in_only": 3,
+ "concessions_fire_free": 152,
+ "districts_total": 189,
+ "districts_with_fire": 158,
+ "peat_pixels": 14424,
+ "peat_pixel_area_ha": 202838,
+ "tco2e_per_ha": 801,
+ "tco2e_per_ha_range": [
+  386,
+  1216
+ ],
+ "emissions_upper_bound_mt": 162.4,
+ "emission_method": "IPCC 2013 Wetlands Supplement Tier 1: 353 t d.m./ha (Table 2.6, tropical drained peat wildfire) x (464 g CO2-C + 21 g CH4 x GWP 27)/kg (Table 2.7). Area = unique VIIRS 375 m pixels on peat (upper bound; a detection does not mean the whole pixel burned)."
+}

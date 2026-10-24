@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="Archivo, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4C625F"/></marker>
+  </defs>
+  <rect width="1200" height="520" fill="#EEF1EE"/>
+  <text x="40" y="52" font-size="26" font-weight="700" fill="#17302E">Satellite fires become anchored evidence that releases or slashes escrow</text>
+
+  <!-- sources -->
+  <rect x="40" y="80" width="1120" height="52" rx="10" fill="#E3E8E4" stroke="#C7D1CC"/>
+  <text x="600" y="112" font-size="16" text-anchor="middle" fill="#17302E">NASA FIRMS VIIRS (3 satellites, live + 2019–2025)   ·   GFW concessions + peat   ·   GADM sub-districts   ·   NASA POWER rainfall</text>
+
+  <!-- boxes -->
+  <g font-size="15" fill="#17302E">
+    <rect x="40" y="190" width="250" height="150" rx="10" fill="#fff" stroke="#4C625F"/>
+    <text x="60" y="222" font-size="19" font-weight="700">1  Ingest</text>
+    <text x="60" y="252">Clip to study area, merge</text>
+    <text x="60" y="274">concession tiles, peat mask,</text>
+    <text x="60" y="296">rain on a 0.5° grid</text>
+    <text x="60" y="324" fill="#4C625F" font-size="13">pipeline/ingest.py</text>
+
+    <rect x="330" y="190" width="250" height="150" rx="10" fill="#fff" stroke="#4C625F"/>
+    <text x="350" y="222" font-size="19" font-weight="700">2  AI layer</text>
+    <text x="350" y="252">DBSCAN space-time fires</text>
+    <text x="350" y="274">Started vs spread-in attribution</text>
+    <text x="350" y="296">LightGBM 7-day fire risk</text>
+    <text x="350" y="324" fill="#4C625F" font-size="13">events.py, risk.py</text>
+
+    <rect x="620" y="190" width="250" height="150" rx="10" fill="#FBE4DC" stroke="#E0502A" stroke-width="2"/>
+    <text x="640" y="222" font-size="19" font-weight="700">3  Anchor on-chain</text>
+    <text x="640" y="252">SHA-256 Merkle root per day</text>
+    <text x="640" y="274">+ dataset + model version</text>
+    <text x="640" y="296">Write-once, never overwritten</text>
+    <text x="640" y="324" fill="#4C625F" font-size="13">EvidenceRegistry.sol</text>
+
+    <rect x="910" y="190" width="250" height="150" rx="10" fill="#FBE4DC" stroke="#E0502A" stroke-width="2"/>
+    <text x="930" y="222" font-size="19" font-weight="700">4  Pay or slash</text>
+    <text x="930" y="252">No confident ignition: pay</text>
+    <text x="930" y="274">Confident ignition: slash</text>
+    <text x="930" y="296">7-day dispute window</text>
+    <text x="930" y="324" fill="#4C625F" font-size="13">FireFreeEscrow.sol</text>
+  </g>
+
+  <g stroke="#4C625F" stroke-width="1.6" fill="none">
+    <path d="M165 132V188" marker-end="url(#a)"/>
+    <path d="M290 265H328" marker-end="url(#a)"/>
+    <path d="M580 265H618" marker-end="url(#a)"/>
+    <path d="M870 265H908" marker-end="url(#a)"/>
+    <path d="M745 340V398" marker-end="url(#a)"/>
+    <path d="M1035 340V398" marker-end="url(#a)"/>
+  </g>
+
+  <!-- dashboard -->
+  <rect x="620" y="400" width="540" height="70" rx="10" fill="#fff" stroke="#4C625F"/>
+  <text x="640" y="430" font-size="17" font-weight="700" fill="#17302E">Public dashboard, no wallet needed</text>
+  <text x="640" y="454" font-size="14" fill="#17302E">Map and fire ledgers · rebuild a day's root in the browser · verify any row · pledge status</text>
+
+  <!-- actors -->
+  <g font-size="14" fill="#17302E">
+    <text x="40" y="420" font-weight="700">Who does what</text>
+    <text x="40" y="444">Funder locks money per polygon per season</text>
+    <text x="40" y="466">Oracle (2-of-3 in production) anchors and reports</text>
+    <text x="40" y="488">Beneficiary can dispute with field evidence</text>
+    <text x="40" y="510">Anyone can settle after the window</text>
+  </g>
+</svg>

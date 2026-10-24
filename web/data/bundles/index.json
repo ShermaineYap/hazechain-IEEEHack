@@ -1,0 +1,82 @@
+[
+ {
+  "day": 20261017,
+  "root": "0xdee0ec292c2b3d43f6dcd98ebf6af8a31c5b0946f0d0d2decc29187a83e18c13",
+  "rowCount": 9548,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261017.json.gz",
+  "detections": 8171,
+  "events": 579
+ },
+ {
+  "day": 20261018,
+  "root": "0xfed98be1317f2fb75c459c7ce66bf0aa77cdafd8d84a2cf5439fc0c056681c71",
+  "rowCount": 5078,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261018.json.gz",
+  "detections": 4683,
+  "events": 174
+ },
+ {
+  "day": 20261019,
+  "root": "0x01048e5700b1df22878eb2ae9e2ddbe0801c4204f4c0e30a190ab5c0573aefed",
+  "rowCount": 2388,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261019.json.gz",
+  "detections": 2091,
+  "events": 126
+ },
+ {
+  "day": 20261020,
+  "root": "0x33f4d249dd433ec1df954da6befe2b47afcc776a9e84102301f64a57639d3f28",
+  "rowCount": 4506,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261020.json.gz",
+  "detections": 3888,
+  "events": 263
+ },
+ {
+  "day": 20261021,
+  "root": "0x4f08b3c7b3992df4b13995cd90d27a369929c124b72a1fd9507471deee46e013",
+  "rowCount": 10152,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261021.json.gz",
+  "detections": 9269,
+  "events": 382
+ },
+ {
+  "day": 20261022,
+  "root": "0xa0b9203c508e6ba9a801cb7ffeefb660eda90eb1fd6aa09617e327dc91f2d3b4",
+  "rowCount": 23145,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261022.json.gz",
+  "detections": 21763,
+  "events": 605
+ },
+ {
+  "day": 20261023,
+  "root": "0x67602fabd5782b9da3b4ee982945535dc312640d15866f9c2b7a27f912f8bb43",
+  "rowCount": 8725,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261023.json.gz",
+  "detections": 8328,
+  "events": 174
+ },
+ {
+  "day": 20261024,
+  "root": "0x733b2244358d58e304415aac7bea1800c3a5829ef8f95270e22e6bf913e9f1a6",
+  "rowCount": 311,
+  "dataset": "NASA FIRMS VIIRS 375m NRT (S-NPP, NOAA-20, NOAA-21) | AOI Central Kalimantan 112.5,-3.8,115.5,-1.5",
+  "modelVersion": "hazechain-0.4.0 (dbscan-st 1.5km/24h; attrib-v2; risk-lgbm-2019-2024)",
+  "uri": "web/data/bundles/20261024.json.gz",
+  "detections": 273,
+  "events": 15
+ }
+]
