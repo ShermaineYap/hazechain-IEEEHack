@@ -4,7 +4,7 @@
 
 IEEE ClimateChain Global Hackathon 2026, track: **Climate Data & Environmental Monitoring**.
 
-- Live dashboard: `LIVE_URL`
+- Live dashboard: https://shermaineyap.github.io/hazechain-IEEEHack/
 - Contracts (Ethereum Sepolia): EvidenceRegistry `REGISTRY_ADDRESS`, FireFreeEscrow `ESCROW_ADDRESS`
 - Demo video: `VIDEO_URL`
 

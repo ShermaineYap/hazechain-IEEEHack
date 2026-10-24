@@ -6,7 +6,7 @@
 
 **Built with:** python, scikit-learn, lightgbm, geopandas, solidity, hardhat, openzeppelin, ethereum-sepolia, ethers.js, leaflet, nasa-firms, global-forest-watch, nasa-power
 
-**Links:** live dashboard `LIVE_URL` · GitHub `REPO_URL` · video `VIDEO_URL` · EvidenceRegistry `REGISTRY_ETHERSCAN` · FireFreeEscrow `ESCROW_ETHERSCAN`
+**Links:** live dashboard https://shermaineyap.github.io/hazechain-IEEEHack/ · GitHub https://github.com/ShermaineYap/hazechain-IEEEHack · video `VIDEO_URL` · EvidenceRegistry `REGISTRY_ETHERSCAN` · FireFreeEscrow `ESCROW_ETHERSCAN`
 
 **File upload:** `submission/HazeChain_onepager.pdf`
 
