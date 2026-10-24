@@ -162,9 +162,9 @@ async function initMap() {
   const m = risk.metrics;
   $("#mtext").textContent = `Gradient-boosted trees on the 2019–2023 fire seasons (${fmt(m.rows_train)} cell-days), tuned on 2024 and tested on 2025, which the model never saw. Neighbouring fires, recent fires and 30-day rainfall matter most.`;
   $("#metrics").innerHTML = [
-    [m.roc_auc, `vs ${m.roc_auc_persistence} for “it burned last week”`, "ROC-AUC, 2025 season"],
+    [m.roc_auc, `vs ${m.roc_auc_persistence}`, "ROC-AUC on 2025; baseline is “it burned here last week”"],
     [Math.round(m.capture_top5pct * 100) + "%", `vs ${Math.round(m.capture_top5pct_persistence * 100)}%`, "of next week's fires in the riskiest 5% of cells"],
-    [m.pr_auc, `vs ${m.pr_auc_persistence}`, "precision-recall AUC (fires in 1% of cell-days)"],
+    [m.el_nino_2023_holdout.roc_auc, `vs ${m.el_nino_2023_holdout.roc_auc_persistence}`, "ROC-AUC on El Niño 2023, also held out"],
     [`${+risk.asof.slice(8)} Oct`, "", `forecast issued, rainfall to ${+risk.rain_last_day.slice(8)} Oct`],
   ].map(([a, s, b]) => `<div><dt>${b}</dt><dd>${a} <small>${s}</small></dd></div>`).join("");
 }
