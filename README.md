@@ -5,7 +5,9 @@
 IEEE ClimateChain Global Hackathon 2026, track: **Climate Data & Environmental Monitoring**.
 
 - Live dashboard: https://shermaineyap.github.io/hazechain-IEEEHack/
-- Contracts (Ethereum Sepolia): EvidenceRegistry `REGISTRY_ADDRESS`, FireFreeEscrow `ESCROW_ADDRESS`
+- Contracts on Ethereum Sepolia (source verified on Sourcify, exact match):
+  - EvidenceRegistry [0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6](https://sepolia.etherscan.io/address/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6) ([source](https://repo.sourcify.dev/11155111/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6))
+  - FireFreeEscrow [0x08d0fc52f066212ACA78D2681aA13805229CBA2a](https://sepolia.etherscan.io/address/0x08d0fc52f066212ACA78D2681aA13805229CBA2a) ([source](https://repo.sourcify.dev/11155111/0x08d0fc52f066212ACA78D2681aA13805229CBA2a))
 - Demo video: `VIDEO_URL`
 
 ![HazeChain dashboard](docs/img/dashboard.png)
@@ -58,6 +60,8 @@ Three parties who don't trust each other need one record: the community or compa
 The baseline is "it burned here or next door last week". Neighbouring fires, recent fires and 30-day rainfall carry most of the signal. Details: [docs/MODEL_CARD.md](docs/MODEL_CARD.md).
 
 ## Live demo pledges on Sepolia
+
+All eight evidence days are anchored and all four pledges ran end to end on Sepolia on 24 Oct 2026; every transaction is linked from the dashboard's Pledges section and listed in [`web/data/deployment.json`](web/data/deployment.json).
 
 | Polygon | What the satellites show | Report | Outcome |
 | --- | --- | --- | --- |

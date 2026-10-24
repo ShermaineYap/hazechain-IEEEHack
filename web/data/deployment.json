@@ -1,0 +1,87 @@
+{
+ "network": "sepolia",
+ "networkName": "Ethereum Sepolia",
+ "chainId": 11155111,
+ "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+ "explorer": "https://sepolia.etherscan.io",
+ "deployer": "0x8d2C924DCd2F7F03191c1a3C634c49F94f41a145",
+ "disputeWindowSeconds": 120,
+ "confidenceThresholdBps": 7000,
+ "anchors": {
+  "20261017": "0x23eb5b03f02cd362a098ca73287b70d99fa87d65b21e7e8afb0aeb4f98a74276",
+  "20261018": "0x283cf58fd3d4600dc0da57499aa336c70a32cb312f03f41bdb0a9e097314bba2",
+  "20261019": "0x4aff6761d7095e4a46ecc93889ce5400dcc38b4ebdbd1aa222320430f2a3189b",
+  "20261020": "0x334d7273427de431c04cc9f75d9bf062bf07891e66aab6c98311cb6e2e4210bc",
+  "20261021": "0x7c57da60fecd51cf6119f155591f664d8c5a653c984e87e11eec993ad07620f0",
+  "20261022": "0x14bf636e0b711e949edd8bc305901c5d1d75e291cc15cb83797b4a3ccc7d73fd",
+  "20261023": "0xba8dc36449c681766c5ede25b21858176b69e75e00cc5a72048cfe77019d7562",
+  "20261024": "0x9536ee02a73838750f8be6040e4f483f34ba9a459bff17e8e102ff334102c87c"
+ },
+ "pledges": [
+  {
+   "id": 0,
+   "polygonId": "KEC-14.1.6",
+   "label": "Karau Kuala sub-district (village pledge)",
+   "beneficiary": "0x00FB11d446E3c95266772C492198c54025EA6E6f",
+   "slashPool": "0xD37Db60755244700d07bc80Ce2e960f34442a68D",
+   "expect": "Paid",
+   "evidenceDay": 20261023,
+   "txs": {
+    "fund": "0x2fade6eef37278d6ba8933ff659ff9e4b395b6de8578266d30b63adc18eb6c11",
+    "report": "0xc333074830da81068b6d90cb17174b391da6c1eeb7923e0f285dbbc6c9ea04b0",
+    "settle": "0x760ad5f43e8c7f00917692ffa453cad1f846e1ed238c2908abf52abef050a689"
+   },
+   "outcome": "Paid"
+  },
+  {
+   "id": 1,
+   "polygonId": "GFW-OP-817",
+   "label": "Fire-free oil-palm concession on deep peat",
+   "beneficiary": "0x46c535f54B3d1BC6795011De716e915956406255",
+   "slashPool": "0xD37Db60755244700d07bc80Ce2e960f34442a68D",
+   "expect": "Paid",
+   "evidenceDay": 20261023,
+   "txs": {
+    "fund": "0xe99f8d97fa301dfecd5c71b3f9da268f7c326808b880c7b50c514e798f27759f",
+    "report": "0xa7f6c379b336c41960e875ab92a3c045f5858c43235ed282d8b19554cb329773",
+    "settle": "0xf677c2e09275f8274231b2bb0cd553254a7170fbc695c110d9d8bfd2047cc300"
+   },
+   "outcome": "Paid"
+  },
+  {
+   "id": 2,
+   "polygonId": "GFW-OP-877",
+   "label": "Concession with 5 confident ignitions",
+   "beneficiary": "0x87Ceb2130f880599225C25a8E05D3EDECf83E5E1",
+   "slashPool": "0xD37Db60755244700d07bc80Ce2e960f34442a68D",
+   "expect": "Slashed",
+   "evidenceDay": 20261020,
+   "txs": {
+    "fund": "0x9e53358d33d75bd6231a63aabe488700f821a855e616378754021ae949707489",
+    "report": "0xdbfb0c54c03d1984619cb764ab9aa4a84bb3a25117611206ab57a8b2e7e5bc4d",
+    "settle": "0xad1443f6393d5060836b966ecbf2f30df715c06feff18582aaa12bf89950a6eb"
+   },
+   "outcome": "Slashed"
+  },
+  {
+   "id": 3,
+   "polygonId": "GFW-OP-799",
+   "label": "Concession with one borderline ignition (0.71)",
+   "beneficiary": "0x61D6758CA8a0662c37145e05CFFFBaA104F5025a",
+   "slashPool": "0xD37Db60755244700d07bc80Ce2e960f34442a68D",
+   "expect": "Disputed",
+   "evidenceDay": 20261022,
+   "txs": {
+    "fund": "0x4a859c0cfa95bc3e6513e3b70f8a3133a2d865ba91f6521643e0898c1782f219",
+    "report": "0xfff7da8456b8bee41ee89bb165b9f17423761f0bfeae32e5048bccb3f558bad3",
+    "dispute": "0x2ed16c7b855450365c114ca930dc2f1e9ff07e8f85760a24bb73b3489c0c9107"
+   },
+   "outcome": "Disputed"
+  }
+ ],
+ "deployedAt": "2026-10-24T14:31:19.117Z",
+ "registry": "0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6",
+ "registryTx": "0x94fd39c20e6adbb6bdd16f77840193e0148b6b77a2282afd2b0d6c8fb6078aee",
+ "escrow": "0x08d0fc52f066212ACA78D2681aA13805229CBA2a",
+ "escrowTx": "0x4c7e09689786237abf18b413fe44a72704325f0ebc1ad140ab1e178d3f69e2d0"
+}
