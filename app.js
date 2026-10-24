@@ -41,7 +41,8 @@ async function initChain() {
   S.reg = new ethers.Contract(S.dep.registry, REG_ABI, provider);
   S.esc = new ethers.Contract(S.dep.escrow, ESC_ABI, provider);
   const ex = S.dep.explorer;
-  badge.innerHTML = `<span class="dot"></span>Live on ${S.dep.networkName}: <a href="${ex}/address/${S.dep.registry}#code" target="_blank" rel="noopener">registry</a> and <a href="${ex}/address/${S.dep.escrow}#code" target="_blank" rel="noopener">escrow</a>`;
+  const src = (a) => `https://repo.sourcify.dev/${S.dep.chainId}/${a}`;
+  badge.innerHTML = `<span class="dot"></span>Live on ${S.dep.networkName}: <a href="${ex}/address/${S.dep.registry}" target="_blank" rel="noopener">registry</a> (<a href="${src(S.dep.registry)}" target="_blank" rel="noopener">code</a>) and <a href="${ex}/address/${S.dep.escrow}" target="_blank" rel="noopener">escrow</a> (<a href="${src(S.dep.escrow)}" target="_blank" rel="noopener">code</a>)`;
 }
 
 /* ------------------------------------------------------------------ map */
