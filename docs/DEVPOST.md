@@ -6,7 +6,7 @@
 
 **Built with:** python, scikit-learn, lightgbm, geopandas, solidity, hardhat, openzeppelin, ethereum-sepolia, ethers.js, leaflet, nasa-firms, global-forest-watch, nasa-power
 
-**Links:** live dashboard https://shermaineyap.github.io/hazechain-IEEEHack/ · GitHub https://github.com/ShermaineYap/hazechain-IEEEHack · video `VIDEO_URL` · EvidenceRegistry https://sepolia.etherscan.io/address/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6 · FireFreeEscrow https://sepolia.etherscan.io/address/0x08d0fc52f066212ACA78D2681aA13805229CBA2a (verified source: https://repo.sourcify.dev/11155111/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6, https://repo.sourcify.dev/11155111/0x08d0fc52f066212ACA78D2681aA13805229CBA2a)
+**Links:** live dashboard https://shermaineyap.github.io/hazechain-IEEEHack/ · GitHub https://github.com/ShermaineYap/hazechain-IEEEHack · video https://youtu.be/beg2q_ye9bQ · EvidenceRegistry https://sepolia.etherscan.io/address/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6 · FireFreeEscrow https://sepolia.etherscan.io/address/0x08d0fc52f066212ACA78D2681aA13805229CBA2a (verified source: https://repo.sourcify.dev/11155111/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6, https://repo.sourcify.dev/11155111/0x08d0fc52f066212ACA78D2681aA13805229CBA2a)
 
 **File upload:** `submission/HazeChain_onepager.pdf`
 

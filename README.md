@@ -8,7 +8,8 @@ IEEE ClimateChain Global Hackathon 2026, track: **Climate Data & Environmental M
 - Contracts on Ethereum Sepolia (source verified on Sourcify, exact match):
   - EvidenceRegistry [0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6](https://sepolia.etherscan.io/address/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6) ([source](https://repo.sourcify.dev/11155111/0xAE2a5A8554FC34BB2d45437Ca87A63aFe04Ed6b6))
   - FireFreeEscrow [0x08d0fc52f066212ACA78D2681aA13805229CBA2a](https://sepolia.etherscan.io/address/0x08d0fc52f066212ACA78D2681aA13805229CBA2a) ([source](https://repo.sourcify.dev/11155111/0x08d0fc52f066212ACA78D2681aA13805229CBA2a))
-- Demo video: `VIDEO_URL`
+- Demo video: https://youtu.be/beg2q_ye9bQ
+- Devpost: https://devpost.com/software/hazechain
 
 ![HazeChain dashboard](docs/img/dashboard.png)
 
